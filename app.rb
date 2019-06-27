@@ -37,6 +37,8 @@ class App < Sinatra::Base
         @solution = params[:number1] * params[:number2]
       when "divide" 
         @solution = params[:number1] / params[:number2]
+      end 
+      @solution 
   end 
   
 end 
