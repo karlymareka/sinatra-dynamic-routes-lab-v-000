@@ -32,11 +32,11 @@ class App < Sinatra::Base
       when "add" 
         @solution = params[:number1] + params[:number2]
       when "subtract" 
-        @solution = params[:number1] + params[:number2]
+        @solution = params[:number1] - params[:number2]
       when "multiply" 
-        @solution = params[:number1] + params[:number2]
+        @solution = params[:number1] * params[:number2]
       when "divide" 
-        @solution = params[:number1] + params[:number2]
+        @solution = params[:number1] / params[:number2]
   end 
   
 end 
