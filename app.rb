@@ -31,6 +31,12 @@ class App < Sinatra::Base
     case params[:operation]
       when "add" 
         @solution = params[:number1] + params[:number2]
+      when "add" 
+        @solution = params[:number1] + params[:number2]
+      when "add" 
+        @solution = params[:number1] + params[:number2]
+      when "add" 
+        @solution = params[:number1] + params[:number2]
   end 
   
 end 
